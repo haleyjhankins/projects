@@ -1,0 +1,167 @@
+footer .col-12.col-md {
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: #262626;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hire-me {
+  background-color: white;
+  color: black !important;
+  width: 90px;
+  text-align: center;
+}
+
+
+/* Nav */
+
+.nav-container {
+  margin-right: 5%;
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+.p-2.align-self-center {
+  margin-right: 45px;
+}
+
+#cta {
+    border: 2px solid white;
+}
+
+/* Hero */
+
+#hero{
+  background-image: url('https://www.dropbox.com/s/v578epvtc416evd/hh-hero.jpg');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  color: white;
+}
+
+/* About */
+
+
+
+
+
+/* Services 1 */
+#services1 {
+padding: 50px 0px 50px;}
+
+
+
+/* Services 2*/
+
+#services2 {
+  background-color: #EEEEEE;
+  padding: 50px 0px 50px;}
+
+}
+
+
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+
+/* Pricing */
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+/* About */
+#hero .big-img {
+  max-width: 500px;
+  /* border-radius: 50%; */
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 1019px) {
+  #hero .display-4 {
+    font-size: 2.5rem;
+  }
+  #hero .lead {
+    font-size: 1rem;
+  }
+
+
+}
