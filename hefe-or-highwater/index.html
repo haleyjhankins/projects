@@ -6,58 +6,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <!-- <link rel="icon" href="../../../../favicon.ico"> -->
-
-  <title>Hefe or Highwater Brewery</title>
-
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>Hefe || Highwater Brewery</title>
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-  <link rel="manifest" href="img/favicon/site.webmanifest">
-  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
 
-  <nav class="site-header sticky-top py-1 ">
-    <div class="nav-container">
-      <div class="d-flex">
-        <div class="logo mr-auto p-2 align-self-center"><a class="py-2 align-self-center" href="index.html">
-              <img class ="nav-logo" src="https://www.dropbox.com/s/lkknsh1d6mmpr4z/HH-simple-logo-white.png?dl=1" alt="logo">
-            </a></div>
-        <div class="p-2 align-self-center"><a class="py-4 d-none d-md-inline-block" href="#">Blog</a></div>
-        <div class="p-2 align-self-center"><a class="py-4 d-none d-md-inline-block" href="#">Our Beers</a></div>
-        <div class="p-2 align-self-center"><a class="py-4 d-none d-md-inline-block" href="about.html">Our Taproom</a></div>
-        <div id="cta" class="p-2 align-self-center"><a class="d-none d-md-inline-block" href="#">Contact</a></div>
+  <nav class="navbar navbar-expand-md navbar-dark nav-remove">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+         <img src="https://www.dropbox.com/s/lkknsh1d6mmpr4z/HH-simple-logo-white.png?dl=1" class="img-fluid" alt="Logo Here">
+       </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lorem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lorem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lorem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link buy-now" href="#">Action</a>
+          </li>
+        </ul>
       </div>
     </div>
-
   </nav>
 
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a class="navbar-brand" href="index.html">
+       <img src="https://www.dropbox.com/s/lkknsh1d6mmpr4z/HH-simple-logo-white.png?dl=1" class="img-fluid" alt="Logo Here">
+     </a>
+    <input id="burger" type="checkbox">
+
+    <label for="burger">
+       <span></span>
+       <span></span>
+       <span></span>
+     </label>
+
+    <nav class="mobile-nav">
+      <ul class="mobile-links">
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#" class="buy-now">Action</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <div id="hero" class="text-center">
     <div class="hero-image">
-      <img class="img-fluid w-100" src="https://www.dropbox.com/s/pon5jc7watogv79/hhbrew-nologo.jpg?dl=1" alt="">
+      <img class="img-fluid w-100" src="https://www.dropbox.com/s/pon5jc7watogv79/hhbrew-nologo.jpg?dl=1" alt="background-image">
+      <!-- <img class= "mobile" src="https://www.dropbox.com/s/44gkh1pp1uekw8x/hhbrew-nologo-530.jpg?dl=1" alt=""> -->
     </div>
-    <img class="hero-logo" src="https://www.dropbox.com/s/7gvka8fp6ypp01t/HH-logo-white.png?dl=1" alt="">
 
+    <div class="txtcss">
+      <div class="txtcss2">
+        <img class="hero-logo" src="https://www.dropbox.com/s/7gvka8fp6ypp01t/HH-logo-white.png?dl=1" alt="logo">
+      </div>
+    </div>
   </div>
 
   <div id="services1" class="">
     <div class="container">
       <div class="row">
-        <div class="col md-6 align-self-center">
+        <div class="col lg-6 col md-6 sm-12 align-self-center">
           <div class="service-image img-fluid">
             <a href="https://placeholder.com"><img src="http://via.placeholder.com/500x350"></a>
           </div>
         </div>
-        <div class="col md-6 align-self-center">
+        <div class="col lg-6 col md-6 sm-12 align-self-center">
           <div class="service-text">
             <h2>Lorem Ipsum</h2>
 
@@ -87,48 +117,102 @@
   </div>
 
 
+  <div id="events" class="">
+    <div class="container">
+      <h1>Upcoming Events</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="https://www.dropbox.com/s/268oxbuv9msmiup/HH-simple-logo.png?dl=1" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+                <small class="text-muted">Aug. 8th</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="https://www.dropbox.com/s/268oxbuv9msmiup/HH-simple-logo.png?dl=1">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+                <small class="text-muted">Sept. 10th</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="https://www.dropbox.com/s/268oxbuv9msmiup/HH-simple-logo.png?dl=1">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+                <small class="text-muted">Nov. 20th;</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
   <!-- Footer -->
-<div class="footer w-100">
-  <div class="contain" style="background-color: #262626; width:100%";>
-  <div class="col">
-    <h1>Company</h1>
-    <ul>
-      <li>About</li>
-      <li>Mission</li>
-      <li>Services</li>
-      <li>Social</li>
-      <li>Get in touch</li>
-    </ul>
+  <div class="footer w-100">
+    <div class="contain" style="background-color: #262626; width:100%;">
+      <div class="row">
+        <div class="col-4">
+          <h1>Company</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Tap Room</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h1>Products</h1>
+          <ul>
+            <li>Our Beers</li>
+            <li>Where to Buy</li>
+          </ul>
+        </div>
+        <div class="col-4 social">
+          <h1>Social</h1>
+          <ul>
+            <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+            <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+            <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
   </div>
-  <div class="col">
-    <h1>Products</h1>
-    <ul>
-      <li>About</li>
-      <li>Mission</li>
-      <li>Services</li>
-      <li>Social</li>
-      <li>Get in touch</li>
-    </ul>
-  </div>
-
-  <div class="col social">
-    <h1>Social</h1>
-    <ul>
-      <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
-      <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
-      <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
-    </ul>
-  </div>
-<div class="clearfix"></div>
-</div>
-</div>
-<!-- END OF FOOTER -->
+  <!-- END OF FOOTER -->
 
 
-
+<script src="js/script.js"></script>
   <!-- Bootstrap core JavaScript
     ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script>
     window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')
